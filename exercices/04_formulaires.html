@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> les formulaires </title>
+</head>
+<body>
+    <!-- les formulaires -->
+    <form action="#" method="post">
+        <!-- L'element de bases de formulaires est input  -->
+        <!-- on va ajoute une label permet -->
+        <label for="name">Nom</label>
+        <input placeholder="Nom"  type="text" id="name" value="sidi"  /> <br> <br>
+        <!-- on a plusieres type de inpyt:
+        text
+        Email
+        date -->
+        <!-- input de type email -->
+        <label for="email">Email</label>
+        <input  type="email" id="email" >
+        <br><br> 
+        <!-- input de type date -->
+        <label for="age">Age</label>
+        <input  type="date" id="age" >
+        <br><br>
+        <!-- input de type password -->
+        <label for="password">Password</label>
+        <input  type="password" id="password" >
+        <br><br>
+        <!-- l'element textera -->
+        <label for="description">votre_motive</label>
+        <textarea id="description" cols="50" rows="20" ></textarea>
+        <br><br>
+        <!-- l'element select liste -->
+        <label for="sexe">Sexe</label>
+        <select id="sexe">
+            <option value="man" selected>Homme</option>
+            <option value="woman">Femme</option>
+        </select>
+        <br><br>
+        <!-- le checkbox:donne une liste de choix -->
+        <label for="fruit">Fruit</label><br>
+        <input name="sport" type="checkbox" id="fruit" value="apple" >Pomme<br>
+        <input name="sport"  type="checkbox" id="fruit" value="orange" >Orange<br>
+        <input  name="sport" type="checkbox" id="fruit" value="bananae" >Banane<br>
+        <br>
+        <!--L'element radio  -->
+        <label for="sport">Sport</label><br>
+        <input name="sport" type="radio" id="sportl" valeur="foot" checked > Foot <br>
+        <input name="sport"  type="radio" id="sport" valeur="badminton">Badminton <br>
+        <input name="sport"  type="radio" id="sport" valeur="tenese" > Tense <br>
+        
+        <br><br>
+
+        <!-- Bouton pour sauvgarder -->
+        <!-- <input type="submit" value="Sauvgarder"> -->
+
+        <!-- l'elment bouton -->
+        <button type="submit">Sauvgarder</button>
+        <br><br>
+        <input type="button" >
+        <br>
+        <input type="checkbox" >POmmmeS
+        <br>
+        <input type="color" value="#e66465">
+        <br><br><br>
+        <input type="datetime-local" >
+        <br>
+        <br>
+        <input type="file" >
+        <br>
+        <input type="number" min="2" max="10">
+        <br><br>
+        <input type="search" >
+        <br>
+        <br>
+        <label for="book">book</label>
+        <select id="book" multiple>
+            <optgroup label="sidi">
+                <option>look at you</option>
+                <option>look at me</option>
+
+            </optgroup>
+            <optgroup label="kahled">
+                <option >le milleur</option>
+                <option>Non c'est facile</option>
+            </optgroup>
+        </select>
+        <br><br>
+    
+       <fieldset>
+        <legend>Sélectionnez vos sports favoris</legend>
+        <!--L'element radio  -->
+        <label for="sport">Sport</label><br>
+        <input name="sport" type="radio" id="sportl" valeur="foot" checked > Foot <br>
+        <input name="sport"  type="radio" id="sport" valeur="badminton">Badminton <br>
+        <input name="sport"  type="radio" id="sport" valeur="tenese" > Tense <br>
+       </fieldset>
+       <br><br>
+       <fieldset>
+        <progress max="100" value="3" >33/100</progress>
+       </fieldset>
+      
+    </form>
+    
+</body>
+</html>
