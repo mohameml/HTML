@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> formulaires en HTML </title>
+
+</head>
+<body>
+    <h1> Test sur les formulaires en HTML </h1>
+    <form action="/test" method="get">
+        <input type="text" autofocus>
+        <br>
+        <br>
+        <input type="text" disabled>
+        <br>
+        <br>
+        <label for="username"> Username : </label>
+        <input type="text" id="username">
+        <br>
+        <br>
+        <input type="text" value="nom ">
+        <br><br>
+        <input type="text" placeholder="Entrez votre nom ">
+        <br><br>
+        <input type="checkbox" name="subscribe" id="subscribe"> <label for="subscribe">S'abonner</label>
+        <br><br>
+        <input type="button" value="Cliquez-moi">
+        <br><br>
+        <input type="color" name="background_color" value="#ff0000">
+        <input type="date" name="birthdate">
+        <br><br>
+        <input type="file" name="file_upload">
+
+        <br><br>
+        <input type="number" name="quantity" min="1" max="10" value="1">
+        <br><br>
+
+        <input type="radio" name="gender" value="male"> Homme
+        <input type="radio" name="gender" value="female"> Femme
+
+        <br><br>
+
+      <input type="range" name="volume" min="0" max="100" value="50">
+
+      <br><br>
+      <textarea name="text" id="" cols="50" rows="10" placeholder="Bonjour ecrivez votre demande ici "></textarea>
+
+      <br><br>
+      <button type="button" onclick="alert('Clic effectué !')">Cliquez-moi</button>
+
+        <br><br>
+
+        <label for="pay">Pays : </label>
+        <select name="pays" id="pay" >
+            <option value="france">France</option>
+            <option value="espagne">Espagne</option>
+            <option value="italie">Italie</option>
+        </select>
+
+
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+        
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+        
+            <!-- Ajoutez d'autres champs de formulaire si nécessaire -->
+        </fieldset>
+        
+        <br><br>
+        <progress value="50" max="100">50%</progress>
+
+        <meter value="75" min="0" max="100">75%</meter>
+
+
+        
+    </form>
+</body>
+</html>

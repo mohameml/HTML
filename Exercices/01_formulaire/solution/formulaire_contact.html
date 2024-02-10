@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solution exo </title>
+</head>
+<body>
+    <form id="monFormulaire" action="/test" method="post">
+
+        <fieldset>
+            <legend>Info personelles</legend>
+
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="username" placeholder="Votre nom" required>
+    
+            <label for="prenom">Prenom:</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre Prenom" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="User email" required>
+
+        </fieldset>
+
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="ecrivez votre message ici"></textarea>
+
+        <label for="sujet">Choix du sujet :</label>
+        <select name="Sujet" id="sujet">
+            <option value="Support technique">Support technique</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Autre">Autre</option>
+        </select>
+
+        <label for="cocher">Accepter les conditions d'utilisation:</label>
+        <input type="radio" id="cocher" name="cocher" required>
+
+        <label for="envoyer">Valider:</label>
+        <button type="submit" id="envoyer" onclick=""></button>
+
+        <script>
+            document.getElementById("monFormulaire").addEventListener("submit", function(event) {
+                // Empêcher le formulaire de soumettre normalement
+                event.preventDefault();
+                
+                // Rediriger vers une nouvelle page
+                window.location.href = "merci.html";
+            });
+        </script>
+
+    </form>
+</body>
+</html>
