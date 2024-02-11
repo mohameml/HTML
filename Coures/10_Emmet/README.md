@@ -1,4 +1,6 @@
-Emmet est un ensemble de plug-ins pour les éditeurs de texte qui permet d'accélérer le processus d'écriture du code HTML et CSS. L'objectif principal d'Emmet est d'améliorer la productivité des développeurs web en leur permettant d'écrire rapidement et efficacement des balises HTML et des règles CSS.
+
+
+Emmet est un ensemble de plugins pour les éditeurs de texte qui permet d'accélérer le processus d'écriture du code HTML et CSS. L'objectif principal d'Emmet est d'améliorer la productivité des développeurs web en leur permettant d'écrire rapidement et efficacement des balises HTML et des règles CSS.
 
 Voici quelques fonctionnalités clés d'Emmet :
 
